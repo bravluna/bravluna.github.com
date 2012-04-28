@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 一段文字
+title: 《白色城堡》
 tagline:
 ---
 {% include JB/setup %}
