@@ -2,7 +2,7 @@
 layout: post
 title: "卡和雪"
 description: ""
-category:
+category: 
 tags: []
 ---
 {% include JB/setup %}
