@@ -1,8 +1,10 @@
 _site/*
+_draft/*
 _theme_packages/*
 
 Thumbs.db
 .DS_Store
+*.swp
 
 !.gitkeep
 
