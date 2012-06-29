@@ -12,16 +12,14 @@ tagline:
 我出生在北方，喜欢南方的雨。
 
 ----
-
 ## Weibo
+
 - [走过星星地毯的猫](http://weibo.com/bravluna)
 
 ## Sites
+
 - [黑桃](http://bravluna.me)
 - [B.Wiki](http://w.bravluna.me)
 
 ----
-
 若需要联系，请写邮件至 bravluna@gmail.com 
-
-
