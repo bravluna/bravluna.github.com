@@ -36,7 +36,8 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    color: black;
+    text-decoration: none;
 }
 
 h1,h2,h3,h4 { 
@@ -54,7 +55,7 @@ h2 {
 }
 
 hr { 
-    border-top: 1px dashed silver;
+    border-top: 1px dashed #444;
     border-bottom: none;
     padding: 0;
     margin: 1.5em 0 0 0;
@@ -63,7 +64,7 @@ hr {
 #site {
     max-width: 64em;
     line-height: 1.5em;
-    margin: 1.5em auto 3em auto;
+    margin: 1.5em auto 1.5em auto;
 }
 
 #page, #disqus_thread {
@@ -74,9 +75,9 @@ hr {
 
 /* More experimental CSS3 features */
 #page, #disqus_thread {
-    box-shadow: 2px 2px 8px #aaa;
-    -webkit-box-shadow: 2px 2px 8px #aaa;
-    -moz-box-shadow: 2px 2px 8px #aaa;
+    box-shadow: 1px 1px 8px #ccc;
+    -webkit-box-shadow: 1px 1px 8px #ccc;
+    -moz-box-shadow: 1px 1px 8px #ccc;
 }
 
 #disqus_thread {
@@ -170,11 +171,13 @@ dd {
 /* @group Header */
 #header, #header a {
     color: silver;
+    text-shadow: 0 1px 0 #fff;
  }
 #header:hover a:hover{
     text-decoration: none;
 }
 #header {
+    min-height: 2.4em;
     line-height: 1em;
     position: relative;
 }
@@ -188,10 +191,9 @@ dd {
 #header ul {
     display: block;
     position: absolute;
-    top: 0;
+    top: 4px;
     right: 0;
     margin: 0;
-    width: 50%;
     font-size: 16px;
     text-align: right;
 }
@@ -204,7 +206,6 @@ dd {
 }
 #header ul li a:hover {
     color: black;
-    border-bottom: 2px solid black;
 }
 
 /* @group Signature */
@@ -320,6 +321,7 @@ pre > code {
     color: grey;
     font-size: 12px;
     line-height: 1.5em;
+    text-shadow: 0 1px 0 #fff;
     margin-top: 0;
 }
 #footer address {
@@ -332,8 +334,8 @@ pre > code {
     color: grey;
     text-decoration: none;
 }
-#footer a:hover { 
-    text-decoration: underline;
+#footer a:hover {
+    color: black;
 }
 #footer .authors {
     display: block;
